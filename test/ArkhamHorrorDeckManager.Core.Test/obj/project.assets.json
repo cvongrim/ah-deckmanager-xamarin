@@ -1,0 +1,570 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Castle.Core/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/Castle.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {}
+        }
+      },
+      "Microsoft.CodeCoverage/16.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.6.1"
+        },
+        "build": {
+          "build/net40/Microsoft.NET.Test.Sdk.props": {},
+          "build/net40/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "Moq/4.14.5": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "4.4.0",
+          "System.Threading.Tasks.Extensions": "4.5.1"
+        },
+        "compile": {
+          "lib/net45/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Moq.dll": {}
+        }
+      },
+      "MvvmCross/6.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Console": "4.3.1"
+        },
+        "compile": {
+          "lib/net461/MvvmCross.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MvvmCross.dll": {}
+        }
+      },
+      "MvvmCross.Tests/6.4.2": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmCross.Tests.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Tests.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "System.Console/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Console.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Console.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "ArkhamHorrorDeckManager.Core/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/ArkhamHorrorDeckManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArkhamHorrorDeckManager.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Castle.Core/4.4.0": {
+      "sha512": "b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
+      "type": "package",
+      "path": "castle.core/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle.core.4.4.0.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40/Castle.Core.dll",
+        "lib/net40/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/netstandard1.3/Castle.Core.dll",
+        "lib/netstandard1.3/Castle.Core.xml",
+        "lib/netstandard1.5/Castle.Core.dll",
+        "lib/netstandard1.5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "Microsoft.CodeCoverage/16.6.1": {
+      "sha512": "nBYXDgAZCfjsOVzlhMB5olGvX4dTDWB/gWaYS/MhgXBcCz8XJuVGqkfK8LmwlBR/eeUPE9Q/NFZNwlJyMZf0vg==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.6.1.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/16.6.1": {
+      "sha512": "zYAjfWzpxKb64P9ntReT1Xr8HdONZnpLVs12HIjXWo+UOCDpevP1UWRoaAgNysaD1/l3teBKvgbSeG9bRssfOQ==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.6.1.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "Moq/4.14.5": {
+      "sha512": "g/TLN+z6Fjd1E3DAUDbBI3nZcNDUXGKGEmImYqJdZ9TzvjME9KkE4BfV4vsKSXm3Of/C0y+rQKW3/5QSCeTUPA==",
+      "type": "package",
+      "path": "moq/4.14.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Moq.dll",
+        "lib/net45/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "moq.4.14.5.nupkg.sha512",
+        "moq.nuspec"
+      ]
+    },
+    "MvvmCross/6.4.2": {
+      "sha512": "ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
+      "type": "package",
+      "path": "mvvmcross/6.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/monoandroid10.0/MvvmCross.dll",
+        "lib/monoandroid10.0/MvvmCross.pdb",
+        "lib/monoandroid10.0/MvvmCross.xml",
+        "lib/monoandroid90/MvvmCross.dll",
+        "lib/monoandroid90/MvvmCross.pdb",
+        "lib/monoandroid90/MvvmCross.xml",
+        "lib/net461/MvvmCross.dll",
+        "lib/net461/MvvmCross.pdb",
+        "lib/net461/MvvmCross.xml",
+        "lib/netcoreapp2.1/MvvmCross.dll",
+        "lib/netcoreapp2.1/MvvmCross.pdb",
+        "lib/netcoreapp2.1/MvvmCross.xml",
+        "lib/netcoreapp3.0/MvvmCross.dll",
+        "lib/netcoreapp3.0/MvvmCross.pdb",
+        "lib/netcoreapp3.0/MvvmCross.xml",
+        "lib/netcoreapp3.1/MvvmCross.dll",
+        "lib/netcoreapp3.1/MvvmCross.pdb",
+        "lib/netcoreapp3.1/MvvmCross.xml",
+        "lib/netstandard2.0/MvvmCross.dll",
+        "lib/netstandard2.0/MvvmCross.pdb",
+        "lib/netstandard2.0/MvvmCross.xml",
+        "lib/tizen40/MvvmCross.dll",
+        "lib/tizen40/MvvmCross.pdb",
+        "lib/tizen40/MvvmCross.xml",
+        "lib/uap10.0.16299/MvvmCross.dll",
+        "lib/uap10.0.16299/MvvmCross.pdb",
+        "lib/uap10.0.16299/MvvmCross.pri",
+        "lib/uap10.0.16299/MvvmCross.xml",
+        "lib/xamarinios10/MvvmCross.dll",
+        "lib/xamarinios10/MvvmCross.pdb",
+        "lib/xamarinios10/MvvmCross.xml",
+        "lib/xamarinmac20/MvvmCross.dll",
+        "lib/xamarinmac20/MvvmCross.pdb",
+        "lib/xamarinmac20/MvvmCross.xml",
+        "lib/xamarintvos10/MvvmCross.dll",
+        "lib/xamarintvos10/MvvmCross.pdb",
+        "lib/xamarintvos10/MvvmCross.xml",
+        "lib/xamarinwatchos10/MvvmCross.dll",
+        "lib/xamarinwatchos10/MvvmCross.pdb",
+        "lib/xamarinwatchos10/MvvmCross.xml",
+        "mvvmcross.6.4.2.nupkg.sha512",
+        "mvvmcross.nuspec",
+        "readme.txt"
+      ]
+    },
+    "MvvmCross.Tests/6.4.2": {
+      "sha512": "Uok7T+DdEC807WI+yvL+g6zXejY7VVs1c2IzM4ZCArZSVen1cNReTQewi21ThW53DWx2bt8y1o88//+YPhHcyQ==",
+      "type": "package",
+      "path": "mvvmcross.tests/6.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/MvvmCross.Tests.dll",
+        "lib/netstandard2.0/MvvmCross.Tests.pdb",
+        "lib/netstandard2.0/MvvmCross.Tests.xml",
+        "mvvmcross.tests.6.4.2.nupkg.sha512",
+        "mvvmcross.tests.nuspec"
+      ]
+    },
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.17.0": {
+      "sha512": "I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
+      "type": "package",
+      "path": "nunit3testadapter/3.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.17.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "System.Console/4.3.1": {
+      "sha512": "6iKDG36vugpW230eBGMLL6GQIx+Buf5txz6DFC1c4MOH8qcOo2mFzId6GsJUTptR4AusnDsdUeCYuzDiftD39w==",
+      "type": "package",
+      "path": "system.console/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Console.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Console.dll",
+        "ref/netstandard1.3/System.Console.dll",
+        "ref/netstandard1.3/System.Console.xml",
+        "ref/netstandard1.3/de/System.Console.xml",
+        "ref/netstandard1.3/es/System.Console.xml",
+        "ref/netstandard1.3/fr/System.Console.xml",
+        "ref/netstandard1.3/it/System.Console.xml",
+        "ref/netstandard1.3/ja/System.Console.xml",
+        "ref/netstandard1.3/ko/System.Console.xml",
+        "ref/netstandard1.3/ru/System.Console.xml",
+        "ref/netstandard1.3/zh-hans/System.Console.xml",
+        "ref/netstandard1.3/zh-hant/System.Console.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.console.4.3.1.nupkg.sha512",
+        "system.console.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "sha512": "YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/uap10.0.16300/_._",
+        "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.1": {
+      "sha512": "WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ArkhamHorrorDeckManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../../src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj",
+      "msbuildProject": "../../src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "ArkhamHorrorDeckManager.Core >= 1.0.0",
+      "Microsoft.NET.Test.Sdk >= 16.6.1",
+      "Moq >= 4.14.5",
+      "MvvmCross >= 6.4.2",
+      "MvvmCross.Tests >= 6.4.2",
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.17.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\colin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+      "projectName": "ArkhamHorrorDeckManager.Core.Test",
+      "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+      "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
+      "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "G:\\Development\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
+              "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.6.1, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.14.5, )"
+          },
+          "MvvmCross": {
+            "target": "Package",
+            "version": "[6.4.2, )"
+          },
+          "MvvmCross.Tests": {
+            "target": "Package",
+            "version": "[6.4.2, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.17.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ArkhamHorrorDeckManager.Core is not compatible with net461 (.NETFramework,Version=v4.6.1). Project ArkhamHorrorDeckManager.Core supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "ArkhamHorrorDeckManager.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    }
+  ]
+}

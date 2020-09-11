@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj": {}
+  },
+  "projects": {
+    "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
+        "projectName": "ArkhamHorrorDeckManager.Core",
+        "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
+        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
+        "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "G:\\Development\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "MvvmCross.Plugin.FieldBinding": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+        "projectName": "ArkhamHorrorDeckManager.Core.Test",
+        "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
+        "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "G:\\Development\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
+                "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "MvvmCross.Tests": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

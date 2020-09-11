@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gc+YAfsSQPUg8y0XDsHNnyw6kSwBcdksOjwoTi27rESAQr1pDMTUqSeI3vPJUVYSS0cNsBUZQpV+BagVeN3xJw==",
+  "success": true,
+  "projectFilePath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.iOS\\ArkhamHorrorDeckManager.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\colin\\.nuget\\packages\\cirrious.fluentlayout\\2.9.0\\cirrious.fluentlayout.2.9.0.nupkg.sha512",
+    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross\\6.4.2\\mvvmcross.6.4.2.nupkg.sha512",
+    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross.plugin.fieldbinding\\6.4.2\\mvvmcross.plugin.fieldbinding.6.4.2.nupkg.sha512",
+    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross.plugin.sidebar\\6.4.2\\mvvmcross.plugin.sidebar.6.4.2.nupkg.sha512",
+    "C:\\Users\\colin\\.nuget\\packages\\sidebarnavigation\\2.0.0\\sidebarnavigation.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

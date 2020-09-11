@@ -1,0 +1,66 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+    "projectName": "ArkhamHorrorDeckManager.Core.Test",
+    "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+    "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ],
+    "originalTargetFrameworks": [
+      "net461"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "G:\\Development\\nuget": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "net461": {
+        "projectReferences": {
+          "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
+            "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.6.1, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.14.5, )"
+        },
+        "MvvmCross": {
+          "target": "Package",
+          "version": "[6.4.2, )"
+        },
+        "MvvmCross.Tests": {
+          "target": "Package",
+          "version": "[6.4.2, )"
+        },
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.17.0, )"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

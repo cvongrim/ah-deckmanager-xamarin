@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9/doEnQX0YO/65zsvfE9OxY0xlcrnTj6jVh/CKfRY1C54okpTh5DJMzOvqBmbbrlaS+KBnlF6pVj1fbVHxek+g==",
+  "success": true,
+  "projectFilePath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross\\6.4.2\\mvvmcross.6.4.2.nupkg.sha512",
+    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross.plugin.fieldbinding\\6.4.2\\mvvmcross.plugin.fieldbinding.6.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

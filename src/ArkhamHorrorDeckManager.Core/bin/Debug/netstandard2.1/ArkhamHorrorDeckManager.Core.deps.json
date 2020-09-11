@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "ArkhamHorrorDeckManager.Core/1.0.0": {
+        "dependencies": {
+          "MvvmCross": "6.4.2",
+          "MvvmCross.Plugin.FieldBinding": "6.4.2"
+        },
+        "runtime": {
+          "ArkhamHorrorDeckManager.Core.dll": {}
+        }
+      },
+      "MvvmCross/6.4.2": {
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.dll": {
+            "assemblyVersion": "6.4.2.0",
+            "fileVersion": "6.4.2.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.FieldBinding/6.4.2": {
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.FieldBinding.dll": {
+            "assemblyVersion": "6.4.2.0",
+            "fileVersion": "6.4.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArkhamHorrorDeckManager.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MvvmCross/6.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
+      "path": "mvvmcross/6.4.2",
+      "hashPath": "mvvmcross.6.4.2.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.FieldBinding/6.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aJVPGXSw/QtIYL48+qmLRWuIfKe0VKkAl8fs18qih5tL3Lr5yzzdgrL4ggNOQK62ZpDJ6+mENyv44NmE9qAPyg==",
+      "path": "mvvmcross.plugin.fieldbinding/6.4.2",
+      "hashPath": "mvvmcross.plugin.fieldbinding.6.4.2.nupkg.sha512"
+    }
+  }
+}
