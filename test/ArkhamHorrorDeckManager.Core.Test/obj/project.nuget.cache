@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "didfhfhvUzS3YVdbfyB/GrX/Rt/hRHbvjFlP+OTUtfQHUPIsKHcbEd2qRYJwnrRpBU5eVauZYrKY0j7vKIlcaQ==",
+  "dgSpecHash": "X4WaQXcAsVpjHzgOD2wQ9vCOd4lSwhaBJZg1xifUtOCo/OCeCfUwW3866MPpzd6iqgQwnEC/7l9Dc0XdFRxrxA==",
   "success": false,
   "projectFilePath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\colin\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",
     "C:\\Users\\colin\\.nuget\\packages\\mvvmcross\\6.4.2\\mvvmcross.6.4.2.nupkg.sha512",
     "C:\\Users\\colin\\.nuget\\packages\\mvvmcross.tests\\6.4.2\\mvvmcross.tests.6.4.2.nupkg.sha512",
-    "C:\\Users\\colin\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\colin\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
     "C:\\Users\\colin\\.nuget\\packages\\system.console\\4.3.1\\system.console.4.3.1.nupkg.sha512",
     "C:\\Users\\colin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
