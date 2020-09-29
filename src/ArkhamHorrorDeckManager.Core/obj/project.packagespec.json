@@ -1,20 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
+    "projectUniqueName": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj",
     "projectName": "ArkhamHorrorDeckManager.Core",
-    "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
-    "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\obj\\",
+    "projectPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj",
+    "outputPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/obj/",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Microsoft\\Xamarin\\NuGet"
-    ],
     "originalTargetFrameworks": [
       "netstandard2.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "G:\\Development\\nuget": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -55,7 +50,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
     }
   }
 }

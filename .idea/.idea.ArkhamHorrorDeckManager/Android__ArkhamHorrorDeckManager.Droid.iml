@@ -10,7 +10,15 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid" />
+    <content url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid">
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/android" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/app_shared_libraries" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/designtime" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/flata" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/lp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../src/ArkhamHorrorDeckManager.Droid/obj/Debug/stamp" />
+    </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

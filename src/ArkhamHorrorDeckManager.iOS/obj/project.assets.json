@@ -428,40 +428,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\colin\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet": {}
+    "/Users/colinvg/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.iOS\\ArkhamHorrorDeckManager.iOS.csproj",
+      "projectUniqueName": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.iOS/ArkhamHorrorDeckManager.iOS.csproj",
       "projectName": "ArkhamHorrorDeckManager.iOS",
-      "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.iOS\\ArkhamHorrorDeckManager.iOS.csproj",
-      "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-      "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.iOS\\obj\\",
+      "projectPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.iOS/ArkhamHorrorDeckManager.iOS.csproj",
+      "packagesPath": "/Users/colinvg/.nuget/packages/",
+      "outputPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet"
-      ],
       "configFilePaths": [
-        "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/colinvg/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "G:\\Development\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
-              "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj"
+            "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj": {
+              "projectPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj"
             }
           }
         }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4rEaAONj+0ty91IfP5rdPc7cPtHVyW+PdojtGw6jk1pK6AkCgpzCrr6Y1Bo/1DxF3eioH5F13auZyMcxz/JPCg==",
+  "dgSpecHash": "EbTdvjNLj8GPEBv44j+kLxY9+Yqi14PgwDQa4WmzwqdsE83gE4Xpf5/iDmntN80z4b1aH3Iee0o4s3pZk0JgHQ==",
   "success": true,
-  "projectFilePath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
+  "projectFilePath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross\\6.4.2\\mvvmcross.6.4.2.nupkg.sha512",
-    "C:\\Users\\colin\\.nuget\\packages\\mvvmcross.plugin.fieldbinding\\6.4.2\\mvvmcross.plugin.fieldbinding.6.4.2.nupkg.sha512"
+    "/Users/colinvg/.nuget/packages/mvvmcross/6.4.2/mvvmcross.6.4.2.nupkg.sha512",
+    "/Users/colinvg/.nuget/packages/mvvmcross.plugin.fieldbinding/6.4.2/mvvmcross.plugin.fieldbinding.6.4.2.nupkg.sha512"
   ],
   "logs": []
 }

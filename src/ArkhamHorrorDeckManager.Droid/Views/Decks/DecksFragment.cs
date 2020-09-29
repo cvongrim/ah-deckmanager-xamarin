@@ -14,17 +14,17 @@ namespace ArkhamHorrorDeckManager.Droid.Views.Decks
 
         protected override int FragmentLayoutId => Resource.Layout.fragment_decks;
 
-        public override View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        {
-            var view = base.OnCreateView (inflater, container, savedInstanceState);
-            // check the view model has been created
-            var recyclerView = view.FindViewById (Resource.Id.my_recycler_view);
-           
-            // create the adapter
-            // set view model
-            
-            return view;
-        }
+        // public override View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        // {
+        //     var view = base.OnCreateView (inflater, container, savedInstanceState);
+        //     // check the view model has been created
+        //     var recyclerView = view.FindViewById (Resource.Id.my_recycler_view);
+        //    
+        //     // create the adapter
+        //     // set view model
+        //     
+        //     return view;
+        // }
 
         public override void OnCreate (Bundle savedInstanceState)
         {

@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj": {}
+    "/Users/colinvg/development/ah-deckmanager-xamarin/test/ArkhamHorrorDeckManager.Core.Test/ArkhamHorrorDeckManager.Core.Test.csproj": {}
   },
   "projects": {
-    "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
+    "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
+        "projectUniqueName": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj",
         "projectName": "ArkhamHorrorDeckManager.Core",
-        "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj",
-        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-        "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\obj\\",
+        "projectPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj",
+        "packagesPath": "/Users/colinvg/.nuget/packages/",
+        "outputPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/colinvg/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "G:\\Development\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,40 +60,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj": {
+    "/Users/colinvg/development/ah-deckmanager-xamarin/test/ArkhamHorrorDeckManager.Core.Test/ArkhamHorrorDeckManager.Core.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
+        "projectUniqueName": "/Users/colinvg/development/ah-deckmanager-xamarin/test/ArkhamHorrorDeckManager.Core.Test/ArkhamHorrorDeckManager.Core.Test.csproj",
         "projectName": "ArkhamHorrorDeckManager.Core.Test",
-        "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\ArkhamHorrorDeckManager.Core.Test.csproj",
-        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-        "outputPath": "G:\\Development\\ArkhamHorrorDeckManager\\test\\ArkhamHorrorDeckManager.Core.Test\\obj\\",
+        "projectPath": "/Users/colinvg/development/ah-deckmanager-xamarin/test/ArkhamHorrorDeckManager.Core.Test/ArkhamHorrorDeckManager.Core.Test.csproj",
+        "packagesPath": "/Users/colinvg/.nuget/packages/",
+        "outputPath": "/Users/colinvg/development/ah-deckmanager-xamarin/test/ArkhamHorrorDeckManager.Core.Test/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/colinvg/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net461"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "G:\\Development\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj": {
-                "projectPath": "G:\\Development\\ArkhamHorrorDeckManager\\src\\ArkhamHorrorDeckManager.Core\\ArkhamHorrorDeckManager.Core.csproj"
+              "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj": {
+                "projectPath": "/Users/colinvg/development/ah-deckmanager-xamarin/src/ArkhamHorrorDeckManager.Core/ArkhamHorrorDeckManager.Core.csproj"
               }
             }
           }
@@ -139,7 +125,7 @@
               "version": "[3.17.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

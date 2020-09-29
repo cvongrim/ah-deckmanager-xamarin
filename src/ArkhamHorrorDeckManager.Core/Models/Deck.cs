@@ -2,13 +2,13 @@
 
 namespace ArkhamHorrorDeckManager.Core.Models
 {
-    public class Deck : MvxNotifyPropertyChanged
+    public class DeckModel : MvxNotifyPropertyChanged
     {
-        string _id;
-        string _name;
-        string _image;
-        string _investigator;
-        string _type;
+        private string _id;
+        private string _name;
+        private string _image;
+        private string _investigator;
+        private string _type;
         
         public string Id
         {
