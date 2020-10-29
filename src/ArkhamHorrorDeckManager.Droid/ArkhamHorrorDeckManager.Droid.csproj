@@ -64,7 +64,9 @@
     <Compile Include="Setup.cs" />
     <Compile Include="Views\BaseActivity.cs" />
     <Compile Include="Views\BaseFragment.cs" />
+    <Compile Include="Views\Cards\CardsFragment.cs" />
     <Compile Include="Views\Decks\DecksFragment.cs" />
+    <Compile Include="Views\Deck\DeckFragment.cs" />
     <Compile Include="Views\Helpers\IDrawerActivity.cs" />
     <Compile Include="Views\Main\MainContainerActivity.cs" />
     <Compile Include="Views\Main\MainFragment.cs" />
@@ -105,7 +107,12 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\deck_view.axml" />
+    <AndroidResource Include="Resources\drawable\card_placeholder.jpg" />
+    <AndroidResource Include="Resources\drawable\skids.png" />
+    <AndroidResource Include="Resources\layout\fragment_cards.axml" />
+    <AndroidResource Include="Resources\layout\fragment_card.axml" />
+    <AndroidResource Include="Resources\layout\view_deck.axml" />
+    <AndroidResource Include="Resources\layout\fragment_deck.axml" />
     <AndroidResource Include="Resources\layout\fragment_decks.axml" />
     <AndroidResource Include="Resources\layout\fragment_main.axml" />
     <AndroidResource Include="Resources\layout\layout_toolbar.axml" />
